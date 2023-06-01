@@ -5,7 +5,8 @@ const { createApp } = Vue;
 createApp({
     data() {
         return{
-            title: "Questo è un messaggio da js"
+            title: "I need this:",
+            image: "img.jpg"
         }
     }
 }).mount("#app")
